@@ -1,0 +1,17 @@
+Faced issue regarding sync up
+steps:
+1. remove extensions of vscode
+2. remove all folder related to vscode (C:\Users\ratik\AppData\Roaming\Code)
+3. reinstall and uncheck the values needed for sync up if there is any specific issue 
+
+References https://stackoverflow.com/questions/47689536/uninstall-visual-studio-code-in-windows
+
+Faced issue with git 
+steps:
+1.In the terminal I executed these command and it helped
+$ git config --global user.email "ratikumari227@outlook.com"
+
+Admin@User-PC MINGW64 /c/users/admin/desktop/html/halimjon.com (master)
+$ git config --global user.name “ratikumari227”
+
+Reference https://discuss.codecademy.com/t/fatal-error-please-tell-me-who-you-are/405604/4
